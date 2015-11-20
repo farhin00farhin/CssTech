@@ -1,0 +1,29 @@
+﻿body {
+    
+}
+.side-bar {
+    padding: 40px;
+    padding-top:0px;
+}
+
+.thumbnail h1 ,.thumbnail p {
+	margin-top: 20%;
+}
+
+
+.thumbnail a {
+	box-shadow: none;
+}
+
+.thumbnail {
+	background-color: rgba(255, 255, 255, 0.6);
+	box-shadow: 0px 0px 30px black;
+}
+
+.name {
+	text-align: right;
+}
+
+p, h6 {
+	font-size: 20px;
+}

@@ -1,0 +1,333 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>LESS/Stylus/Sass</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/Home.css" rel="stylesheet" />
+    <link href="css/LESS-Stylus-Sass.css" rel="stylesheet" />
+</head>
+<body>
+
+    <!-- Start common html -->
+
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <ul class="nav navbar-nav navbar-left">
+                <li><a href="Home.html">
+                    <img src="Images/Logo.png" width="420" height="168" /></a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Our Journey <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="The-Ride.html">The Ride</a></li>
+                        <li><a href="WhoWeAre.html">Who We Are</a></li>
+                        <li><a href="Gallery.html">Gallery</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Our Team <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-submenu">
+                            <a href="Meeting-Minutes.html">Meeting Minutes</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="./Meeting-Minutes.html#Meeting1">Meeting 1</a></li>
+                                <li><a href="./Meeting-Minutes.html#Meeting2">Meeting 2</a></li>
+                                <li><a href="./Meeting-Minutes.html#Meeting3">Meeting 3</a></li>
+                                <li><a href="./Meeting-Minutes.html#Meeting4">Meeting 4</a></li>
+                                <li><a href="./Meeting-Minutes.html#Meeting5">Meeting 5</a></li>
+                                <li><a href="./Meeting-Minutes.html#Meeting6">Meeting 6</a></li><li><a href="./Meeting-Minutes.html#Meeting7">Meeting 7</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="About Us.html">About Us</a></li>
+                        <li><a href="OurPersonalities.html">Our Personalities</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More into CSS <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-submenu"><a href="CSS3.html">CSS3</a><ul class="dropdown-menu"><li><a href="CSS3.html#Introduction">Introduction</a></li><li><a href="CSS3.html#Digdeeper">Details</a></li><li><a href="CSS3.html#Tutorials">Tutorials</a></li><li><a href="CSS3.html#Conclusion">Conclusion</a></li><li><a href="CSS3.html#References">Sources</a></li></ul></li>
+                        <li class="dropdown-submenu">
+                            <a href="LESS-Stylus-Sass.html">LESS\Stylus\Sass</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="LESS-STYLUS-SASS.html#Introduction">Introduction</a></li>
+                                <li><a href="LESS-STYLUS-SASS.html#Digdeeper">Dig Deeper</a></li>
+                                <li><a href="LESS-STYLUS-SASS.html#Tutorials">Tutorials</a></li>
+                                <li><a href="LESS-STYLUS-SASS.html#References">Sources</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="Normalize-CSS.html">Normalize.CSS</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="Normalize-CSS.html#Introduction">Introduction</a></li>
+                                <li><a href="Normalize-CSS.html#Material">Material</a></li>
+                                <li><a href="Normalize-CSS.html#Tutorial">Tutorial</a></li>
+                                <li><a href="Normalize-CSS.html#Conclusion">Conclusion</a></li>
+                                <li><a href="Normalize-css.html#References">Reference</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="Bootstrap.html">Bootstrap</a></li>
+                        <li><a href="boiler.html">HTML5 Boilerplate</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- End common html -->
+    <div class="container">
+
+
+
+        <div class="row maindiv">
+            <div class="col-md-12">
+                <div class="row css-text">
+                    <div class="col-md-12">
+
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active"><a href="#Introduction" aria-controls="Introduction" role="tab" data-toggle="tab">Introduction</a></li>
+                            <li role="presentation"><a href="#Digdeeper" aria-controls="Digdeeper" role="tab" data-toggle="tab">Dig deeper</a></li>
+                            <li role="presentation"><a href="#Tutorials" aria-controls="Tutorials" role="tab" data-toggle="tab">Tutorials</a></li>
+                            <li role="presentation"><a href="#References" aria-controls="References" role="tab" data-toggle="tab">Sources</a></li>
+
+
+                        </ul>
+                        <div class="myname">
+                            <h1>Let's Extend CSS!</h1>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <p>-Sadia Afrin</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane active" id="Introduction">
+                                <p>There are languages, for example, LESS, Stylus, Sass, that help generate CSS. They are known as CSS preprocessors. </p>
+                                <p>The best thing about preprocessors is that they are not bound to the limitations of CSS and give you clean CSS code which works equally well across all web browsers. They let you use variables which help you define and modify style values across all your CSS files at once. This would be impossible to do in CSS alone.</p>
+
+                                <p>If you want to use features that include conditions (if else conditions) or calculations, preprocessors are ideal for these jobs. You can perform operations (+,-,*, /) on your variables if you want to work with certain ratios for colours and sizes. This can result in more accurate alignment of your HTML elements. </p>
+                                <p>
+                                    You can easily find and share solutions to common CSS problems written in either LESS, Stylus or Sass. Because of their modular design, you can easily share snippets of different solutions.
+										<a class="ref" href="#ref1">[1]</a><a class="ref" href="#ref2">[2]</a>
+
+                                </p>
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="Digdeeper">
+
+                                <p>Let's look at the navigation bar for this website.</p>
+                                <div class="panel panel-default">
+                                    <div class="panel-body">
+                                        <img class="img-responsive" src="Images/Screenshot (7).png.jpg" />
+                                    </div>
+                                    <div class="panel-footer">Navigation bar</div>
+                                </div>
+                                <p>The code which styled part of this nav-bar is the following CSS code. Take a look at the matching LESS/Sass and
+                                 Stylus code to see the difference. </p>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="panel panel-default">
+                                            <div class="panel-body">
+                                                <img class="img-responsive" src="Images/preprocessors (1).png.jpg" />
+                                            </div>
+                                            <div class="panel-footer">CSS</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="panel panel-default">
+                                            <div class="panel-body">
+                                                <img class="img-responsive" src="Images/preprocessors (2).png.jpg" />
+                                            </div>
+                                            <div class="panel-footer">LESS/Sass</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="panel panel-default">
+                                            <div class="panel-body">
+                                                <img class="img-responsive" src="Images/preprocessors (3).png" />
+                                            </div>
+                                            <div class="panel-footer">Stylus</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p>As you can see, in the CSS code, declaring styles is repetitive and hard to read. Whereas in LESS/Sass the code is nested and cleaner to look at. In Stylus, the code is even cleaner as there are no curly braces.</p>
+                                <p>
+                                    LESS and Sass use the standard CSS syntax but with Stylus, using semi-colons, curly braces and some other syntax elements are optional. They all have different file extensions but in the end they all output .css files.<a class="ref" href="#ref3">[3]</a>
+                                </p>
+                                <h3>Why Use Preprocessors?</h3>
+                                <ol>
+                                    <li>
+                                        <h4>Use of Variables:</h4>
+                                        <p>These preprocessors let you define variables which can hold any value you want. This makes your code easily maintainable as any changes you make to the variable will apply across everywhere it's used.</p>
+                                    </li>
+                                    <li>
+                                        <h4>Use of Operations:</h4>
+                                        <p>
+                                            In a polished website certain elements depend on the sizes of other elements. Preprocessors let you find the correct ratios over fixed measurements. For Example, you can make the size of a button 1/3 of the size of its container. You can define it using operations such as:
+                                            <pre>#button {width: $container-width/3}</pre>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h4>Nesting:</h4>
+                                        <p>As you saw in the first example, preprocessors allow you to nest style definitions giving easier access and a cleaner look to your code.</p>
+                                    </li>
+                                    <li>
+                                        <h4>Mixins- Mixing-in CSS properties:</h4>
+                                        <p>
+                                            Mixins are like special variables that hold a bunch of CSS properties. So modifying blocks of code is safe and consistent if you are using mixins
+												<a class="ref" href="#ref4">[4]</a><a class="ref" href="#ref5">[5]</a>
+                                        </p>
+                                    </li>
+
+                                </ol>
+                                <h3>How Preprocessors Work</h3>
+                                <p>To generate CSS using LESS/Stylus or Sass, first you need to install a compiler that will turn your preprocessor code into CSS. After installation, you can generate the css files using these commands:</p>
+                                <p>For LESS:<a class="ref" href="#ref6">[6]</a></p>
+                                <pre>lessc styles.less styles.css</pre>
+                                <p>For Sass:<a class="ref" href="#ref7">[7]</a></p>
+                                <pre>sass input.scss output.css</pre>
+                                <p>For Stylus:<a class="ref" href="#ref8">[8]</a></p>
+                                <pre>$ stylus css</pre>
+
+
+
+                                <h3>But Remember...</h3>
+                                <p>
+                                    Even though LESS, Stylus and Sass have a lot of similarities, you can't use them interchangeably. Another problem you can
+										face while using preprocessors is that they can slow down your browser by creating bloated CSS. For someone who is inexperienced with
+										other programming languages than HTML and CSS, installing preprocessors can be quite a challenge. <a class="ref" href="#ref5">[5]</a><a class="ref" href="#ref9">[9]</a>
+                                </p>
+                                <h3>Would you go for preprocessors?</h3>
+                                <p>Now that you know the pros and cons of preprocessors, would you give it a shot? <b><i>In my opinion</i></b>, preprocessors like LESS/Sass/Stylus can be 
+                                quite useful, especially when you have a large website that has lots of styles because of all the advanced and programatic features that they offer.
+                                 But the overhead might not be worth it if the website is relatively simple. So, anyone who hasn't tried preprocessors yet, I would definitely recommend giving them a try. You may just find that coding CSS became a whole lot simpler!  </p>
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="Tutorials">
+                                <p>
+                                    <b>Here's a video that explains preprocessors incredibly well! Check it out.</b>
+                                </p>
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/PJkWbezpHpE"></iframe>
+                                <p>
+                                    <b>Click on the links below to start coding with preprocessors:</b>
+                                </p>
+                                <ul>
+                                    <li><a target="_blank" href="https://www.codeschool.com/courses/assembling-sass">- Learn Sass</a> . To get to the tutorial you will need to sign up for free first. Even though it's a little bit of a hassle, it's totally worth it!</li>
+                                    <li><a target="_blank" href="http://leveluptuts.com/tutorials/stylus-tutorials">- Stylus Tutorials </a></li>
+                                    <li><a target="_blank" href="http://www.cssauthor.com/less-tutorials/">- Guide to LESS</a></li>
+
+                                </ul>
+                                <p>These tutorials helped me learn the basics of LESS, Stylus and Sass. Hope you guys find them useful too.</p>
+                                <p>
+                                    And here's a website that you can turn to when you are stuck: <a target="_blank" href="http://stackoverflow.com/">Stack Overflow</a>
+                                </p>
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="References">
+                                <div class="row references">
+                                    <div class="col-md-12">
+                                        <h3>Sources:</h3>
+                                        <ol>
+                                            <li id="ref1">Drupalize Me,. (2015). What is a CSS Preprocessor?|Drupalize.Me. Retrieved 2 November 2015,
+													from <a target="_blank" href="https://drupalize.me/videos/what-css-preprocessor?p=1175">https://drupalize.me/videos/what-css-preprocessor?p=1175</a> 
+                                            </li>
+                                            <li id="ref2">Pouncey, I., & York, R. (2011). Beginning CSS: Cascading style sheets for web design.
+													Indianapolis, IN: Wiley Pub.
+                                            </li>
+                                            <li id="ref3">Greig, S. (2013). CSS3 pushing the limits. Chichester, England: Wiley.
+                                            </li>
+                                            <li id="ref4">THE WHYS AND HOWS OF CSS PREPROCESSING. (2012). MacUser, 28(19), 84.
+                                            </li>
+                                            <li id="ref5">Bradley, S. (2012). Sass And LESS: An Introduction To CSS Preprocessors - Vanseo Design. Vanseo Design. Retrieved 2 November 2015, from <a target="_blank" href="http://vanseodesign.com/css/css-preprocessors/">http://vanseodesign.com/css/css-preprocessors/</a>
+                                            </li>
+
+                                            <li id="ref6">Lesscss.org,. (2015). Getting started | Less.js. Retrieved 2 November 2015, from <a target="_blank" href="http://lesscss.org/">http://lesscss.org/</a> 
+                                            </li>
+
+                                            <li id="ref7">Sass-lang.com,. (2015). File: SASS_REFERENCE — Sass Documentation. Retrieved 9 November 2015, from <a target="_blank" href="http://sass-lang.com/documentation/file.SASS_REFERENCE.html">http://sass-lang.com/documentation/file.SASS_REFERENCE.html</a> 
+                                            </li>
+                                            <li id="ref8">Learnboost.github.io,. (2015). Executable — Stylus. Retrieved 9 November 2015, from <a target="_blank" href="https://learnboost.github.io/stylus/docs/executable.html">https://learnboost.github.io/stylus/docs/executable.html</a> 
+                                            </li>
+                                            <li id="ref9">Zingdesign.com,. (2014). Problems with pre-processors, alternatives to Sass and CSS4 | Zing Design. Retrieved 2 November 2015, from <a target="_blank" href="http://www.zingdesign.com/problems-with-pre-processors-alternatives-to-sass-and-css4/">http://www.zingdesign.com/problems-with-pre-processors-alternatives-to-sass-and-css4/</a> 
+                                            </li>
+
+                                        </ol>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <button type="button" id="Previous-button" class="btn btn-primary active">
+                            Previous
+                        </button>
+                        <button type="button" id="Next-button" class="btn btn-primary active">
+                            Next
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Start common html -->
+
+    <div class="container-fluid footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h3><a href="Home.html">Home</a>
+                    </h3>
+                </div>
+                <div class="col-md-3">
+                    <h3>Our Team</h3>
+                    <ul class="footer-list">
+                        <li><a href="Meeting-Minutes.html">Meeting Minutes</a></li>
+                        <li><a href="About Us.html">About Us</a></li>
+                        <li><a href="OurPersonalities.html">Our Personalities</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h3>Our Journey</h3>
+                    <ul class="footer-list">
+                        <li><a href="The-Ride.html">The Ride</a></li>
+                        <li><a href="WhoWeAre.html">Who We Are</a></li>
+                        <li><a href="Gallery.html">Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-list">
+                        <li><a href="CSS3.html">CSS3</a></li>
+                        <li><a href="LESS-Stylus-Sass.html">LESS\Stylus\Sass</a></li>
+                        <li><a href="Normalize-CSS.html">Normalize.CSS</a></li>
+                        <li><a href="Bootstrap.html">Bootstrap</a></li>
+                        <li><a href="boiler.html">HTML5 Boilerplate</a></li>
+                        <li><a href="Image-References.html">Image References</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row copyright">
+                <div class="col-md-12">&copy; 2015. All rights reserved by GroupOne. </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/common.js"></script>
+
+</body>
+</html>
+<!-- End common html -->

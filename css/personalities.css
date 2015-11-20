@@ -1,0 +1,76 @@
+﻿body {
+}
+.table {
+		background-color: wheat;
+}
+.css-text{
+	text-align: left;
+	margin-top:25px;
+}
+
+
+.hand-circle {
+    position: absolute;
+    border-radius: 40px;
+    width: 80px;
+    height: 80px;
+    background-color: wheat;
+    text-align: center;
+		opacity:0;
+		box-shadow:0 0 30px white;
+
+}
+
+.maindiv {
+    
+    margin: 90px;
+}
+
+.hand-circle-text{
+		margin-top: 20px;
+font-weight:bold;
+}
+
+#hand-thumb{
+    top: 71px;
+    left: -65px
+}
+#hand-index{
+top: -47px;
+    left: -11px;
+}
+#hand-middle{
+top: -97px;
+    left: 96px;
+}
+#hand-ring{
+top: -82px;
+    left: 210px;
+}
+#hand-little{
+top: -19px;
+    left: 301px;
+}
+
+#open-hand:hover, #hand-click:hover, .hand-circle:hover {
+	cursor: pointer;
+
+}
+
+#hand-click{
+		opacity: 1;
+    background: none;
+    box-shadow: none;
+    top: 202px;
+    left: 94px;
+    font-weight: bold;
+    font-size: 32px;
+    width: 160px;
+}
+.css-text	h3{
+    text-align:center;
+}
+
+
+
+

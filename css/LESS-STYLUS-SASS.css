@@ -1,0 +1,81 @@
+﻿body {
+}
+.css-text h1{
+    color:steelblue;
+    margin:20px 0 0 0;
+
+}
+.css-text{
+    padding-bottom:50px;
+}
+.css-text li{
+    text-align:left;
+}
+.nav-tabs>li>a:hover {
+    border-color: tan;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: mintcream;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #555;
+    cursor: default;
+    background-color: tan;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+    
+}
+.nav-tabs{
+    border:none;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: cadetblue;
+    border-color: teal;
+     
+     width:150px;
+     margin :100px 90px 0 90px;
+}
+ol li h4{
+    
+    color:steelblue;
+    text-align:left;
+}
+ol li {
+text-align:left;
+
+}
+p{
+    text-align:left;
+}
+.references {
+    padding-left: 40px;
+    margin-bottom: 100px;
+    background-color: wheat;
+    box-shadow: 0px 0px 30px wheat;
+    border-radius: 150px;
+    padding-bottom: 20px;
+}
+.references ol > li {
+    list-style-type:decimal;
+}
+.references h3{
+    color:cornflowerblue;
+    font-weight:bold;
+}
+.myname {
+		display: inline-block;
+		margin-bottom:50px;
+}
+
+.myname .col-md-12{
+    font-weight:bold;
+		color:goldenrod;
+		text-align: right;
+}
+.myname p{
+		text-align: right;
+
+}

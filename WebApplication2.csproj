@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{85F8F145-B969-4DDA-9416-9406FE2BD731}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebApplication2</RootNamespace>
+    <AssemblyName>WebApplication2</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="About Us.html" />
+    <Content Include="boiler.html" />
+    <Content Include="Bootstrap.html" />
+    <Content Include="Images\download.jpg.png" />
+    <Content Include="Images\h.JPG" />
+    <Content Include="Images\IMG_1469.JPG" />
+    <Content Include="Images\IMG_1471.JPG" />
+    <Content Include="Images\IMG_1472.JPG" />
+    <Content Include="Images\IMG_1473.JPG" />
+    <Content Include="Images\sorry.png" />
+    <Content Include="WhoWeAre.html" />
+    <Content Include="css\AboutUs.css" />
+    <Content Include="css\image.css" />
+    <Content Include="css\Meeting-Minutes.css" />
+    <Content Include="css\Normalize-CSS.css" />
+    <Content Include="css\personalities.css" />
+    <Content Include="css\The-Ride.css" />
+    <Content Include="data0\images\img_1449.jpg" />
+    <Content Include="data0\images\img_1450.jpg" />
+    <Content Include="data0\images\img_1452.jpg" />
+    <Content Include="data0\images\img_1456.jpg" />
+    <Content Include="data0\images\img_1457.jpg" />
+    <Content Include="data0\images\img_1458.jpg" />
+    <Content Include="data0\images\img_1464.jpg" />
+    <Content Include="data0\images\img_5725.jpg" />
+    <Content Include="data0\images\img_5732.jpg" />
+    <Content Include="data0\images\img_5734.jpg" />
+    <Content Include="data0\images\img_5737.jpg" />
+    <Content Include="data0\images\img_5739.jpg" />
+    <Content Include="data0\images\img_5740.jpg" />
+    <Content Include="data0\images\img_5742.jpg" />
+    <Content Include="data0\tooltips\img_1449.jpg" />
+    <Content Include="data0\tooltips\img_1450.jpg" />
+    <Content Include="data0\tooltips\img_1452.jpg" />
+    <Content Include="data0\tooltips\img_1456.jpg" />
+    <Content Include="data0\tooltips\img_1457.jpg" />
+    <Content Include="data0\tooltips\img_1458.jpg" />
+    <Content Include="data0\tooltips\img_1464.jpg" />
+    <Content Include="data0\tooltips\img_5725.jpg" />
+    <Content Include="data0\tooltips\img_5732.jpg" />
+    <Content Include="data0\tooltips\img_5734.jpg" />
+    <Content Include="data0\tooltips\img_5737.jpg" />
+    <Content Include="data0\tooltips\img_5739.jpg" />
+    <Content Include="data0\tooltips\img_5740.jpg" />
+    <Content Include="data0\tooltips\img_5742.jpg" />
+    <Content Include="engine0\arrows.png" />
+    <Content Include="engine0\bullet.png" />
+    <Content Include="engine0\jquery.js" />
+    <Content Include="engine0\pause1.png" />
+    <Content Include="engine0\play.png" />
+    <Content Include="engine0\script.js" />
+    <Content Include="engine0\style.css" />
+    <Content Include="engine0\style.mod.css" />
+    <Content Include="engine0\triangle.png" />
+    <Content Include="engine0\wowslider.js" />
+    <Content Include="engine0\wowslider.mod.js" />
+    <Content Include="Gallery.html" />
+    <Content Include="CSS3.html" />
+    <Content Include="Image-References.html" />
+    <Content Include="Images\518079-background-hd.jpg" />
+    <Content Include="Images\fereshteh.png" />
+    <Content Include="Images\fist.png" />
+    <Content Include="Images\hand.png" />
+    <Content Include="Images\journey.png" />
+    <Content Include="Images\Logo.png" />
+    <Content Include="css\LESS-STYLUS-SASS.css" />
+    <Content Include="Images\man-151816_1280.png" />
+    <Content Include="Images\Original.png" />
+    <Content Include="Images\preprocessors %281%29.png.jpg" />
+    <Content Include="Images\preprocessors %282%29.png.jpg" />
+    <Content Include="Images\preprocessors %283%29.png" />
+    <Content Include="Images\s.png" />
+    <Content Include="Images\s1.png" />
+    <Content Include="Images\Screenshot %287%29.png.jpg" />
+    <Content Include="js\common.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\personalities.js" />
+    <Content Include="js\the-ride.js" />
+    <Content Include="LESS-STYLUS-SASS.html" />
+    <Content Include="Meeting-Minutes.html" />
+    <Content Include="Normalize-CSS.html" />
+    <Content Include="OurPersonalities.html" />
+    <Content Include="css\bootstrap-theme.css.map" />
+    <Content Include="css\bootstrap.css.map" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\bootstrap-theme.css" />
+    <Content Include="css\bootstrap-theme.min.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="css\Home.css" />
+    <Content Include="Home.html" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\npm.js" />
+    <Content Include="The-Ride.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>23267</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:23267/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

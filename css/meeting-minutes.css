@@ -1,0 +1,20 @@
+﻿body {
+}
+.css-text h1{
+    color:black
+}
+.css-text h2 {
+    color:navy;
+    text-align:left;
+    font-weight:700;
+    margin-bottom:20px;
+}
+.table-bordered{
+    box-shadow:0 0 30px black;
+}
+.table-bordered>tbody>tr>td, .table-bordered>thead>tr>th {
+    border: 1px solid steelblue;
+}
+.css-text ol > li {
+    list-style-type:decimal;
+}

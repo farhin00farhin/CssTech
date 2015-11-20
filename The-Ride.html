@@ -1,0 +1,250 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Ride</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/Home.css" rel="stylesheet" />
+    <link href="css/The-Ride.css" rel="stylesheet" />
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+        function initialize() {
+            var mapCanvas = document.getElementById('map');
+            var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
+
+            var mapOptions = {
+                center: new google.maps.LatLng(-36.993780, 174.877198),
+                zoom: 17,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            }
+
+            var map = new google.maps.Map(mapCanvas, mapOptions)
+            var marker = new google.maps.Marker({
+                position: new google.maps.LatLng(-36.993780, 174.877198),
+                map: map,
+                icon: 'Images/Journey.png'
+            });
+        }
+        google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+
+</head>
+<body>
+
+    <!-- Start common html -->
+
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <ul class="nav navbar-nav navbar-left">
+                <li><a href="Home.html">
+                    <img src="Images/Logo.png" width="420" height="168" /></a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Our Journey <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="The-Ride.html">The Ride</a></li>
+                        <li><a href="WhoWeAre.html">Who We Are</a></li>
+                        <li><a href="Gallery.html">Gallery</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Our Team <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-submenu">
+                            <a href="Meeting-Minutes.html">Meeting Minutes</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="./Meeting-Minutes.html#Meeting1">Meeting 1</a></li>
+                                <li><a href="./Meeting-Minutes.html#Meeting2">Meeting 2</a></li>
+                                <li><a href="./Meeting-Minutes.html#Meeting3">Meeting 3</a></li>
+                                <li><a href="./Meeting-Minutes.html#Meeting4">Meeting 4</a></li>
+                                <li><a href="./Meeting-Minutes.html#Meeting5">Meeting 5</a></li>
+                                <li><a href="./Meeting-Minutes.html#Meeting6">Meeting 6</a></li><li><a href="./Meeting-Minutes.html#Meeting7">Meeting 7</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="About Us.html">About Us</a></li>
+                        <li><a href="OurPersonalities.html">Our Personalities</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More into CSS <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-submenu"><a href="CSS3.html">CSS3</a><ul class="dropdown-menu"><li><a href="CSS3.html#Introduction">Introduction</a></li><li><a href="CSS3.html#Digdeeper">Details</a></li><li><a href="CSS3.html#Tutorials">Tutorials</a></li><li><a href="CSS3.html#Conclusion">Conclusion</a></li><li><a href="CSS3.html#References">Sources</a></li></ul></li>
+                        <li class="dropdown-submenu">
+                            <a href="LESS-Stylus-Sass.html">LESS\Stylus\Sass</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="LESS-STYLUS-SASS.html#Introduction">Introduction</a></li>
+                                <li><a href="LESS-STYLUS-SASS.html#Digdeeper">Dig Deeper</a></li>
+                                <li><a href="LESS-STYLUS-SASS.html#Tutorials">Tutorials</a></li>
+                                <li><a href="LESS-STYLUS-SASS.html#References">Sources</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="Normalize-CSS.html">Normalize.CSS</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="Normalize-CSS.html#Introduction">Introduction</a></li>
+                                <li><a href="Normalize-CSS.html#Material">Material</a></li>
+                                <li><a href="Normalize-CSS.html#Tutorial">Tutorial</a></li>
+                                <li><a href="Normalize-CSS.html#Conclusion">Conclusion</a></li>
+                                <li><a href="Normalize-css.html#References">Reference</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="Bootstrap.html">Bootstrap</a></li>
+                        <li><a href="boiler.html">HTML5 Boilerplate</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- End common html -->
+    <div class="container">
+
+        <div class="row maindiv">
+            <div class="col-md-7">
+                <div id="map"></div>
+
+            </div>
+            <div class="col-md-5 sidenotes">
+                <div class="row sidenote" id="sn1">
+                    <b>This is where the journey started.</b><br />
+                    <a href="https://www.manukau.ac.nz/">MIT</a> brought us all together.
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="row maindiv">
+            <div class="col-md-offset-4 col-md-3">
+                <div>
+                    <img src="Images/man-151816_1280.png " height="350" />
+                </div>
+
+            </div>
+            <div class="col-md-5 sidenotes">
+                <div class="row sidenote" id="sn2">
+                    <b>Forming our team</b>
+                    <br />
+                    When we were assigned together to create this website, we had no idea how we would work together as a team.
+                    Even though we had almost spent an entire semester studying together, we still didn't know a lot about each other.
+                     We all had different personalities and backgrounds so communicating with each other wasn't very easy at first.
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="row maindiv">
+            <div class="col-md-offset-1 col-md-6">
+                <div>
+                    <img src="Images/s.png " height="350" />
+                </div>
+
+            </div>
+            <div class="col-md-5 sidenotes">
+                <div class="row sidenote" id="sn3">
+                    <b>Working as a team</b>
+                    <br />
+                    But once we started working together, it actually turned out to be fun.
+                    We got to know each others strength and weaknesses.
+                    The journey wasn't always smooth but in the end this project turned out to be one of the best collaborative experiences of our semester.
+                </div>
+
+            </div>
+
+        </div>
+        <div class="row maindiv">
+            <div class="col-md-offset-1 col-md-6">
+                <div>
+                    <img src="Images/s1.png " height="350" />
+                </div>
+
+            </div>
+            <div class="col-md-5 sidenotes">
+                <div class="row sidenote" id="sn4">
+                    <b>And finally...</b>
+                    <br />
+                    Making this project together wasn't an easy task but with everyone's co operation and contribution, we managed to build a pretty amazing website, given our limited experience with HTML and CSS.
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- Start common html -->
+
+    <div class="container-fluid footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h3><a href="Home.html">Home</a>
+                    </h3>
+                </div>
+                <div class="col-md-3">
+                    <h3>Our Team</h3>
+                    <ul class="footer-list">
+                        <li><a href="Meeting-Minutes.html">Meeting Minutes</a></li>
+                        <li><a href="About Us.html">About Us</a></li>
+                        <li><a href="OurPersonalities.html">Our Personalities</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h3>Our Journey</h3>
+                    <ul class="footer-list">
+                        <li><a href="The-Ride.html">The Ride</a></li>
+                        <li><a href="WhoWeAre.html">Who We Are</a></li>
+                        <li><a href="Gallery.html">Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-list">
+                        <li><a href="CSS3.html">CSS3</a></li>
+                        <li><a href="LESS-Stylus-Sass.html">LESS\Stylus\Sass</a></li>
+                        <li><a href="Normalize-CSS.html">Normalize.CSS</a></li>
+                        <li><a href="Bootstrap.html">Bootstrap</a></li>
+                        <li><a href="boiler.html">HTML5 Boilerplate</a></li>
+                        <li><a href="Image-References.html">Image References</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row copyright">
+                <div class="col-md-12">&copy; 2015. All rights reserved by GroupOne. </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/The-Ride.js"></script>
+
+</body>
+</html>
+<!-- End common html -->
