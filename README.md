@@ -14,7 +14,7 @@ Just clone/download and run.
 
 * **Sadia Afrin** 
 * **Fereshteh Asli Ardeh** 
-* **Anita** 
+* **Anita Reddy** 
 * **Sukhpreet Singh** 
 
 ## License
